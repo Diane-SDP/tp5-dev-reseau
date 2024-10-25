@@ -16,7 +16,7 @@ s.connect(('localhost', 9998))
 msg = input("Calcul : ")
 checked, listcalcul = validate_input(msg)
 while not checked :
-    msg = input("Mauvais input chien : ")
+    msg = input("Mauvais input : ")
     checked, listcalcul = validate_input(msg)
 firstnb, operator, secondnb = listcalcul[0],listcalcul[1],listcalcul[2]
 
