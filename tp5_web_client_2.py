@@ -2,7 +2,7 @@ import socket
 import sys
 
 host = 'localhost' 
-port = 13337              
+port = 80              
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
